@@ -1,6 +1,6 @@
 package org.example.lifesafe.service.impl;
 
-import org.example.lifesafe.model.entities.Contract;
+import org.example.lifesafe.model.entity.Contract;
 import org.example.lifesafe.repository.IContractRepository;
 import org.example.lifesafe.service.IContractService;
 import org.springframework.beans.factory.annotation.Autowired;

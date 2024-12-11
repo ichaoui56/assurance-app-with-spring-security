@@ -1,6 +1,6 @@
 package org.example.lifesafe.service.impl;
 
-import org.example.lifesafe.model.entities.*;
+import org.example.lifesafe.model.entity.*;
 import org.example.lifesafe.model.enums.InsuranceType;
 import org.example.lifesafe.repository.IContractRepository;
 import org.example.lifesafe.repository.IInsuranceRepository;

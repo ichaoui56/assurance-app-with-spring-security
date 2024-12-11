@@ -2,7 +2,7 @@ package org.example.lifesafe.web;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
-import org.example.lifesafe.model.entities.User;
+import org.example.lifesafe.model.entity.User;
 import org.example.lifesafe.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

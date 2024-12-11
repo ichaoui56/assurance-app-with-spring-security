@@ -1,6 +1,6 @@
 package org.example.lifesafe.service;
 
-import org.example.lifesafe.model.entities.Car;
+import org.example.lifesafe.model.entity.Car;
 
 import java.util.List;
 import java.util.Optional;

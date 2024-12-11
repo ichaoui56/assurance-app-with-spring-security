@@ -1,6 +1,6 @@
 package org.example.lifesafe.service.impl;
 
-import org.example.lifesafe.model.entities.User;
+import org.example.lifesafe.model.entity.User;
 import org.example.lifesafe.repository.IUserRepository;
 import org.example.lifesafe.service.IUserService;
 import org.mindrot.jbcrypt.BCrypt;

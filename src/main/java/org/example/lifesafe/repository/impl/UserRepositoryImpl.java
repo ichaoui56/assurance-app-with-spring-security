@@ -1,6 +1,6 @@
 package org.example.lifesafe.repository.impl;
 
-import org.example.lifesafe.model.entities.User;
+import org.example.lifesafe.model.entity.User;
 import org.example.lifesafe.repository.IUserRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

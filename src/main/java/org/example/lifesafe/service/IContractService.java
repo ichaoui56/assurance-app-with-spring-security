@@ -1,6 +1,6 @@
 package org.example.lifesafe.service;
 
-import org.example.lifesafe.model.entities.Contract;
+import org.example.lifesafe.model.entity.Contract;
 
 import java.util.Optional;
 

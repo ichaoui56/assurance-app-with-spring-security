@@ -1,7 +1,7 @@
 package org.example.lifesafe.web;
 
 import jakarta.servlet.http.HttpSession;
-import org.example.lifesafe.model.entities.*;
+import org.example.lifesafe.model.entity.*;
 import org.example.lifesafe.model.enums.InsuranceType;
 import org.example.lifesafe.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;

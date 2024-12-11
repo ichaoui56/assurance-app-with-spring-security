@@ -1,6 +1,6 @@
 package org.example.lifesafe.service.impl;
 
-import org.example.lifesafe.model.entities.Car;
+import org.example.lifesafe.model.entity.Car;
 import org.example.lifesafe.repository.ICarRepository;
 import org.example.lifesafe.service.ICarService;
 import org.springframework.beans.factory.annotation.Autowired;

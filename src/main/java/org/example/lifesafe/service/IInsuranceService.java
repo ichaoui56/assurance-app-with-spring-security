@@ -1,10 +1,7 @@
 package org.example.lifesafe.service;
 
-import org.example.lifesafe.model.entities.*;
+import org.example.lifesafe.model.entity.*;
 import org.example.lifesafe.model.enums.InsuranceType;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 public interface IInsuranceService {
     void addInsurance(Insurance insurance);

@@ -1,6 +1,6 @@
 package org.example.lifesafe.web;
 
-import org.example.lifesafe.model.entities.*;
+import org.example.lifesafe.model.entity.*;
 import org.example.lifesafe.model.enums.CarUse;
 import org.example.lifesafe.model.enums.DevisStatus;
 import org.example.lifesafe.model.enums.InsuranceType;

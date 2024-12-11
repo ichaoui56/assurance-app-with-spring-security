@@ -2,10 +2,6 @@ package org.example.lifesafe.repository.impl;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.TypedQuery;
-import org.example.lifesafe.model.entities.Contract;
-import org.example.lifesafe.model.entities.Insurance;
-import org.example.lifesafe.model.enums.InsuranceType;
 import org.example.lifesafe.repository.IDefaultRepository;
 import org.springframework.transaction.annotation.Transactional;
 

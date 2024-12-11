@@ -9,11 +9,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e175dd9-63bb-4815-9a38-e96e91ae34f4" name="Changes" comment="" />
+    <list default="true" id="6e175dd9-63bb-4815-9a38-e96e91ae34f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/UserActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/enums/RoleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Automobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Devis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Devis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Health.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Health.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Housing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Housing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/ICarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/ICarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IContractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IContractRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IDefaultRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IDefaultRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IDevisRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IDevisRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IInsuranceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IInsuranceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/CarRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/CarRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/ContractRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/ContractRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/DefaultRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/DefaultRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/DevisRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/DevisRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/InsuranceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/InsuranceRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/ICarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/ICarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IDevisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IDevisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IInsuranceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IInsuranceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/ContractServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/DevisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/DevisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/InsuranceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/InsuranceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/util/CalculateDevis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/util/CalculateDevis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/AutomobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/AutomobileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/ContractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/DevisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/DevisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/HealthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/HealthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/HousingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/HousingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lifesafe/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CarServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CarServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/ContractServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ContractServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/DevisServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/DevisServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/InsuranceServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/InsuranceServiceImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,20 +96,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.30.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.30.executor": "Run",
+    "git-widget-placeholder": "ASS-2-configuration-de-la-base-de-donnees-pour-les-utilisateurs-et-roles",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <deployment>
@@ -159,7 +217,7 @@
       <workItem from="1733906002524" duration="134000" />
       <workItem from="1733906484511" duration="22000" />
       <workItem from="1733906515034" duration="988000" />
-      <workItem from="1733907539895" duration="82000" />
+      <workItem from="1733907539895" duration="4356000" />
     </task>
     <servers />
   </component>

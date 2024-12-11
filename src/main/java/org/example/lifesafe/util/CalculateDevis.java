@@ -1,11 +1,10 @@
 package org.example.lifesafe.util;
 
-import org.example.lifesafe.model.entities.Automobile;
-import org.example.lifesafe.model.entities.Health;
-import org.example.lifesafe.model.entities.Housing;
+import org.example.lifesafe.model.entity.Automobile;
+import org.example.lifesafe.model.entity.Health;
+import org.example.lifesafe.model.entity.Housing;
 import org.example.lifesafe.model.enums.CarUse;
 import org.example.lifesafe.model.enums.CoverType;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;

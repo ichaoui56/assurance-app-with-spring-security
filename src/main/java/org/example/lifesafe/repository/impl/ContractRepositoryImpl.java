@@ -1,7 +1,7 @@
 package org.example.lifesafe.repository.impl;
 
 import jakarta.persistence.TypedQuery;
-import org.example.lifesafe.model.entities.Contract;
+import org.example.lifesafe.model.entity.Contract;
 import org.example.lifesafe.model.enums.InsuranceType;
 import org.example.lifesafe.repository.IContractRepository;
 import org.springframework.stereotype.Repository;

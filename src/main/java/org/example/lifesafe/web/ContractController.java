@@ -1,7 +1,7 @@
 package org.example.lifesafe.web;
 
-import org.example.lifesafe.model.entities.Contract;
-import org.example.lifesafe.model.entities.Devis;
+import org.example.lifesafe.model.entity.Contract;
+import org.example.lifesafe.model.entity.Devis;
 import org.example.lifesafe.service.IContractService;
 import org.example.lifesafe.service.IDevisService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,1 +1,0 @@
-# assurance-app-with-spring-security

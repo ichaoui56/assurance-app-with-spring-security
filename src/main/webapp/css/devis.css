@@ -1,0 +1,46 @@
+/* /resources/css/styles.css */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.insurance-details, .quote-total {
+    margin-bottom: 20px;
+}
+
+.accept-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reject-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-button:hover, .reject-button:hover {
+    opacity: 0.8;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}

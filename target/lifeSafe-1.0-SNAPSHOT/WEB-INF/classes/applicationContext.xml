@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- Enable annotation-driven transaction management -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!-- Data Source Configuration -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/LifeSafe"/>
+        <property name="username" value="postgres"/>
+        <property name="password" value="123"/>
+    </bean>
+
+    <!-- JPA Entity Manager Factory Configuration -->
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="org.example.lifesafe"/> <!-- Adjust the package name to where your entities are located -->
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+        </property>
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+                <prop key="hibernate.show_sql">true</prop> <!-- Optional: show SQL statements -->
+            </props>
+        </property>
+    </bean>
+
+    <!-- Transaction Manager Configuration -->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/automobile/addForm" />
+            <mvc:mapping path="/health/addForm" />
+            <mvc:mapping path="/housing/addForm" />
+            <bean class="org.example.lifesafe.web.interceptor.AuthenticationInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!-- Component Scanning -->
+    <context:component-scan base-package="org.example.lifesafe"/> <!-- Adjust the package name to your application's package -->
+
+</beans>
